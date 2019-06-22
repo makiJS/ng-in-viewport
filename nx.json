@@ -1,0 +1,21 @@
+{
+  "npmScope": "ng-in-viewport",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "ng-in-viewport": {
+      "tags": ["ui"]
+    },
+    "demo-e2e": {
+      "tags": []
+    },
+    "demo": {
+      "tags": ["ui"]
+    }
+  }
+}
