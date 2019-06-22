@@ -16,7 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ng-in-viewport/ng-in-viewport": ["libs/ng-in-viewport/src/index.ts"]
+      "ng-in-viewport": ["libs/ng-in-viewport/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
