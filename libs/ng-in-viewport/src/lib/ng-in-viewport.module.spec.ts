@@ -1,7 +1,7 @@
 import { async, TestBed } from '@angular/core/testing';
 import { InViewportModule } from './ng-in-viewport.module';
 
-describe('NgInViewportModule', () => {
+describe('InViewportModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [InViewportModule]
