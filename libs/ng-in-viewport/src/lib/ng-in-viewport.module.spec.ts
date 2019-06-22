@@ -1,14 +1,14 @@
 import { async, TestBed } from '@angular/core/testing';
-import { NgInViewportModule } from './ng-in-viewport.module';
+import { InViewportModule } from './ng-in-viewport.module';
 
 describe('NgInViewportModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [NgInViewportModule]
+      imports: [InViewportModule]
     }).compileComponents();
   }));
 
   it('should create', () => {
-    expect(NgInViewportModule).toBeDefined();
+    expect(InViewportModule).toBeDefined();
   });
 });

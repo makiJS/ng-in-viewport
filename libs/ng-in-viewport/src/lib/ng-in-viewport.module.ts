@@ -1,7 +1,10 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { InViewportDirective } from './in-viewport.directive';
 
 @NgModule({
-  imports: [CommonModule]
+  imports: [CommonModule],
+  declarations: [InViewportDirective],
+  exports: [InViewportDirective]
 })
-export class NgInViewportModule {}
+export class InViewportModule {}

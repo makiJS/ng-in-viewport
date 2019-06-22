@@ -1,7 +1,9 @@
 {
   "extends": "../../tslint.json",
   "rules": {
-    "directive-selector": [true, "attribute", "ngInViewport", "camelCase"],
-    "component-selector": [true, "element", "ng-in-viewport", "kebab-case"]
+    "directive-selector": [true, "attribute", "inViewport", "camelCase"],
+    "component-selector": [true, "element", "in-viewport", "kebab-case"],
+    "no-input-rename": false,
+    "no-output-rename": false
   }
 }
